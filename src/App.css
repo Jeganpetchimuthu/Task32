@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(17, 225, 155);
+  font-family: sans-serif;
+}
+h2 {
+  text-align: center;
+}
+.SignUp-form {
+  max-width: 450px;
+  border-radius: 20px;
+  margin: auto;
+  background-color: darkslategrey;
+  box-sizing: border-box;
+  padding: 40px;
+  color: white;
+  margin-top: 100px;
+}
+input[type="text"],
+[type="password"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 10px;
+  background-color: rgb(251, 251, 252);
+  outline: none;
+  border: none;
+  border-bottom: 1px solid red;
+  color: rgb(242, 16, 16);
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: bold;
+}
+input[type="submit"] {
+  width: 190px;
+  box-sizing: 50px;
+  padding: 10px 0px;
+  margin-top: 30px;
+  background-color: rgb(12, 12, 246);
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+  opacity: 0.3;
+  outline: none;
+  border: none;
+  margin-left: 100px;
+}
